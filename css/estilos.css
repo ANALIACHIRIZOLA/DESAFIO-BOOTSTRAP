@@ -1,0 +1,184 @@
+header{
+    padding: 12px 0px 0px 0px;
+    height: 25vh;
+    background-color: rgb(252, 223, 227);
+}
+main{
+    background-image: linear-gradient(rgb(185, 230, 228), rgb(52, 136, 133), rgb(185, 230, 228));
+}
+nav{
+    background-color: rgb(252, 223, 227);
+    text-align: center;
+
+}
+.menu{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(113, 46, 129);
+    font-size: 14px;
+
+}
+footer{
+    background-color: rgb(252, 223, 227);
+    padding: 5%;
+}
+.piePagina{
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(113, 46, 129);
+    text-decoration: none;
+    text-align: center;
+}
+.img{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 10%;
+    padding: 0px;
+    width: 80%;
+    position: relative;
+}
+.bruja1{
+    width: 25%;
+    height: 90%;
+}
+.bruja2{
+    height: 85%;
+    width: 25%;
+}
+.tituloLogo{
+    width: 50%;
+    height: 55%;
+}
+.pieFoto{
+    position: absolute;
+    top: 200px;
+    margin: 0px;
+    background-color: rgb(243, 212, 217, 0.75);
+    width: 80%;
+    height: 10%;
+    font-size: 15px;
+    padding: 2px;
+    color: rebeccapurple;
+}
+.texto{
+    font-size: 60%;
+    margin: 0px;
+    text-align: center;
+    line-height: 1;
+    width: 68%;
+    padding: 2%;
+}
+p{
+    padding: 0px;
+    margin: 0px;
+}
+.imagen{
+    margin: 3%;
+    padding: 0px;
+}
+.formularioContacto{
+    margin: 5%;
+    color: slateblue;
+    font-size: 70%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.formularioenviar{
+     margin: 3%;
+     font-size: 70%;
+     padding: 1%;
+     color: slateblue;
+}
+.formularioConsulta{
+     padding: 2%;
+     height: 20%; 
+     font-size: 95%;
+     color: slateblue;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     width: 90%;
+}
+.parrafo{
+    color: teal;
+}
+    /* Estilos tablet */
+    @media (min-width: 768px){
+        .pieFoto{
+            font-size: 18px;
+        }
+
+        .piePagina{
+            font-size: 16px;
+        }
+
+        .pieFoto{
+            top: 450px;
+            width: 80%;
+            height: 8%;
+            padding: 10px;
+            font-size: 20px;
+        }
+
+        .menu{
+            font-size: 16px;
+        }
+
+        .bruja1{
+            width: 20%;
+            height: 135%;
+        }
+
+        .bruja2{
+            height: 130%;
+            width: 25%;
+        }
+
+        .tituloLogo{
+            width: 50%;
+            height: 90%;
+        }
+        .texto{
+            font-size: 120%;
+        }
+    }
+    /* Estilos desktop */
+    @media(min-width: 1024px){
+        .pieFoto{
+            font-size: 20px;
+        }
+
+        .piePagina{
+            font-size: 20px;
+        }
+
+        .pieFoto{
+            top: 650px;
+            width: 80%;
+            height: 6%;
+            font-size: 15px;
+            padding: 12px;
+            font-size: 22px;
+        }
+
+        .menu{
+            font-size: 20px;
+        }
+
+        .bruja1{
+            width: 20%;
+            height: 165%;
+        }
+
+        .bruja2{
+            height: 160%;
+            width: 25%;
+        }
+
+        .tituloLogo{
+            width: 50%;
+            height: 90%;
+        }
+        .texto{
+            font-size: 150%;
+            margin-top: 2%;
+        }
+    }
+        
